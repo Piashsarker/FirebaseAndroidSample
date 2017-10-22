@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dcastalia.firebaseandroidsample.GoogleSignInActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="9pt"
+        android:text="@string/firebase_sample" />
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_margin="20dp"
+          android:orientation="vertical">
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/text_realtime_database"/>
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/txt_crash_reporting"/>
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/google_analytics"/>
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/cloud_messaging"/>
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/cloud_firestore"/>
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/authentication"/>
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/dynamic_link"/>
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/remote_config"/>
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/cloud_function"/>
+
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/cloud_storage"/>
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/invites"/>
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/app_indexing"/>
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/admob"/>
+
+
+
+
+      </LinearLayout>
+
+
+  </ScrollView>
+
+
+</LinearLayout>
